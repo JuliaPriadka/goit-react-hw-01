@@ -1,0 +1,50 @@
+.profile {
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background-color: cornsilk;
+  width: 500px;
+}
+
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.profileAvatar {
+  width: 250px;
+  height: 250px;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+.profileName {
+  font-size: large;
+  font-weight: 700;
+}
+
+.profileStats {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray;
+  border-top: 1px solid #000;
+}
+
+.profileStatsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
