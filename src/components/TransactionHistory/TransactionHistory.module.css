@@ -1,0 +1,43 @@
+.table {
+  width: 900px;
+  border: 2px solid black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: darkslategray;
+  color: white;
+}
+
+.table th {
+  border: 1px solid black;
+}
+
+.tableRow {
+  border-color: black;
+}
+
+.row:nth-child(2n + 1) {
+  background-color: lightgray;
+}
+
+.tableRow td {
+  border: 1px solid black;
+  width: 300px;
+}
+.type {
+  text-align: left;
+  padding-left: 100px;
+}
+
+.amount,
+.currency {
+  text-align: center;
+}
+/* .type :nth-child(2n) {
+  background-color: aqua;
+} */

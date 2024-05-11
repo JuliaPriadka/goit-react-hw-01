@@ -1,7 +1,7 @@
 import FriendListItem from "../FriendList/FriendListItem"
 import css from "./FriendList.module.css";
 
-export default function Friendlist({friends}) {
+export default function FriendList({friends}) {
 
     return (
         <ul className={css.friendList}>

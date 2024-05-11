@@ -1,8 +1,11 @@
 .friendCard {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
   align-items: center;
+  border: 2px solid black;
+  padding: 16px;
+  border-radius: 6px;
 }
 
 .online {
