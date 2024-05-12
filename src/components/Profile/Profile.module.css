@@ -11,7 +11,7 @@
   justify-content: center;
   gap: 16px;
   background-color: cornsilk;
-  width: 500px;
+  width: 600px;
 }
 
 .profileCard {
@@ -36,9 +36,8 @@
 .profileStats {
   width: 100%;
   display: flex;
-  justify-content: space-around;
   background-color: lightgray;
-  border-top: 1px solid #000;
+  border-top: 2px solid darkgray;
 }
 
 .profileStatsItem {
@@ -47,4 +46,13 @@
   align-items: center;
   gap: 10px;
   padding: 10px;
+  width: calc(100% / 3);
+}
+
+.profileStatsItem:not(:last-child) {
+  border-right: 2px solid darkgrey;
+}
+
+.statsNumber {
+  font-weight: 700;
 }
